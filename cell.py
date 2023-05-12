@@ -1,10 +1,10 @@
-from core.v2 import *
+import sys
+sys.path.append(f'{sys.path[0]}\\..\\project_ai')
+
+from core import *
 import pygame
 import random
 import string
-import sys
-sys.path.append(f'{sys.path[0]}\\..\\project_ai-main')
-sys.path.append(f'{sys.path[0]}\\..\\project_ai-main\\core')
 
 
 class Cell:

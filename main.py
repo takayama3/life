@@ -112,7 +112,6 @@ def ganerate_field():
 
     noise = PerlinNoise(size=(window_size[0] // px, window_size[1] // px))
     noise.generate()
-    noise.arr = noise.bilinear_interpolation()
 
     for y in range(window_size[1] // px):
         for x in range(window_size[0] // px):
